@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieFlix | Keyifli İzlemeler!</title>
+    <link rel="stylesheet" href="respons.css">
+    <link rel="stylesheet" href="giris.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+
+<body>
+    <header class="main_header">
+        <a href="index.html" class="main-header__logo">MovieFlix</a>
+        <nav class="main_nav">
+            <ul class="main-nav__items">
+                <li class="main-nav__item"><a href="mailto:name@email.com">Bize Ulaşın</a></li>
+                <li class="main-nav__item"><a href="#">Filmler</a></li>
+                <li class="main-nav__item"><a href="#">Diziler</a></li>
+                <li class="main-nav__item main-nav__item--login"><a href="giris.html">Giriş Yap</a></li>
+                <li class="main-nav__item main-nav__item--login"><a href="kayit.html">Kayıt Ol</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="showcase">
+            <h1>MovieFlix'e Hoşgeldin!</h1>
+        </section>
+    </main>
+
+    <div id="container">
+        <div id="title">
+            <i class="fas fa-user-plus"></i>
+            <h1>Kayıt Ol </h1>
+        </div>
+        <div id="form">
+            <form method=get>
+                <div id="form-input">
+                    <label for="email">
+                        Email
+                        <br>
+                        <input id="email" type="email" />
+                    </label>
+                    <label for="password">
+                        <br><br>
+                        Şifre
+                        <br>
+                        <input id="password" type="password" />
+                    </label>
+                    <br><br>
+                    <label for="password">
+                        Tekrar Şifre
+                        <br>
+                        <input type="password" type="password">
+                    </label>
+                    <br><br>
+                    <label for="text">Cinsiyetiniz Nedir?</label>
+                    <br>
+                    <input type="radio" name="cinsiyet" id="radio">
+                    <label for="radio">Erkek</label>
+
+                    <input type="radio" name="cinsiyet" id="radio">
+                    <label for="radio">Kadın</label>
+
+                    <input type="radio" name="cinsiyet" id="radio">
+                    <label for="radio">Belirtmek İstemiyorum</label>
+                    <br><br>
+                    <label for="cities">Hangi Şehirde Yaşıyorsunuz?</label>
+                    <br>
+                    <select id="cities">
+                        <option value="34">İstanbul</option>
+                        <option value="06">Ankara</option>
+                        <option value="71">Kırıkkale</option>
+                        <option value="77">Yalova</option>
+                        <option value="01">Adana</option>
+                        <option value="75">Ardahan</option>
+                        <option value="36">Kars</option>
+                        <option value="07">Antalya</option>
+                    </select>
+                    <br><br>
+                    <label for="text">Son Olarak Eklemek İstedikleriniz Var ise:</label>
+                    <br>
+                    <textarea name="text" id="" cols="30" rows="5"></textarea>
+
+                </div>
+                <br><br>
+                <div>
+                    <button class="diez1" type="submit">Kayıt Ol</button>
+                    <button class="diez1" type="reset">Temizle</button>
+                </div>
+            </form>
+            <br><br>
+        </div>
+        <div id="links">
+            <a href="giris.html">Zaten Bir Hesabın Var Mı?</a>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <div class="footer-aling">
+                <div class="col-22">
+                    <ul class="footer-links">
+                        <li><a href="#">Hakkımızda</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Forum</a></li>
+                        <li><a href="#">İletişim</a></li>
+                    </ul>
+                </div>
+                <div id="col-22">
+                    <ul id="social-links">
+                        <li><a href="" class="fab fa-facebook"></a></li>
+                        <li><a href="" class="fab fa-twitter"></a></li>
+                        <li><a href="" class="fab fa-instagram"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
