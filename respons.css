@@ -1,3 +1,5 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css");
+
 * {
     box-sizing: border-box;
 }
@@ -128,6 +130,7 @@ p {
 
 .row .col-3 {
     max-width: 450px;
+    margin-left: 2rem;
 }
 
 .row .col-3:nth-child(3) {
@@ -440,8 +443,6 @@ footer ul li {
 }
 
 .fab {
-    padding: 10px;
-    font-size: 25px;
     border-radius: 50%;
 }
 
