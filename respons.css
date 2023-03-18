@@ -457,7 +457,7 @@ footer ul li {
 }
 
 .fa-twitter {
-    background-color: #55ACEE;
+    background-color: #125688;
     color: #fff;
 }
 
@@ -469,3 +469,13 @@ footer ul li {
 .section-title {
     margin-bottom: 5px;
 }
+
+#form-input #email {
+    border-radius: 8px;
+}
+
+#form-input #password {
+    border-radius: 8px;
+}
+
+
