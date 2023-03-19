@@ -81,7 +81,7 @@ body {
     width: 100%;
     position: relative;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed;  
 }
 
 #showcase .content {
@@ -106,6 +106,34 @@ body {
     font-size: 45px;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+@media (min-width: 576px) {
+    #showcase {
+        height: 50vh;
+    }
+
+    #showcase .content {
+        font-size: 23px;
+    }
+}
+
+@media (min-width: 768px) {
+    #showcase {
+        height: 60vh; 
+    }
+    #showcase .content {
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 992px) {
+    #showcase {
+        height: 70vh;  
+    }
+    #showcase .content {
+        font-size: 26px;
+    }
 }
 
 .how-it-works {
@@ -477,5 +505,3 @@ footer ul li {
 #form-input #password {
     border-radius: 8px;
 }
-
-
