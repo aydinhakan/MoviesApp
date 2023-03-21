@@ -289,12 +289,6 @@ p {
 
 }
 
-#container {
-    text-align: center;
-    margin-top: 10px;
-
-}
-
 #links a {
     text-decoration: none;
     background-color: #fff;
@@ -379,10 +373,6 @@ p {
     border: 1px solid #FC997C;
     color: #fff;
     background-color: #FC997C;
-}
-
-#container {
-    margin-bottom: 10px;
 }
 
 .bottom-plan {
