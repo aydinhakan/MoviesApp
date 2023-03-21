@@ -482,6 +482,8 @@ p {
 
 .card-image {
     max-height: 350px;
+    max-width: 400px;
+    margin-top: 3rem;
 
 }
 
@@ -582,7 +584,7 @@ footer ul li {
 }
 
 .section-title {
-    margin-bottom: 5px;
+    margin-bottom: 2rem;
 }
 
 #form-input #email {
