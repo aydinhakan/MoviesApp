@@ -594,3 +594,8 @@ footer ul li {
 #form-input #password {
     border-radius: 8px;
 }
+
+#container #title, i {
+    display: flex;
+    justify-content: center;
+}
