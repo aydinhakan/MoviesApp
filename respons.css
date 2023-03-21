@@ -410,8 +410,6 @@ p {
 
 #title i {
     font-size: 48px;
-    margin-left: 19px;
-
 }
 
 #backtotop {
@@ -595,7 +593,14 @@ footer ul li {
     border-radius: 8px;
 }
 
-#container #title, i {
+#container {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container #form,
+#title {
+    text-align: center;
 }
